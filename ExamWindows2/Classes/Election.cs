@@ -18,13 +18,18 @@ namespace ExamWindows2.Classes
         public string NomElection
         {
             get { return nom_election; }
-            set { nom_election = value; }
+            set { 
+                if(value == "Municipal" || value == "Provinciale" || value == "Fédérale")
+                {
+                    nom_election = value;
+                }
+            }
         }
 
         public DateTime DateElection
         {
             get { return date_election; }
-            set { date_election = value; }
+            set {date_election = value;}
         }
 
         public List<Electeur> ListElecteurs
