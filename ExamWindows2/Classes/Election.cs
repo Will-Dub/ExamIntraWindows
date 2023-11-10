@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace ExamWindows2.Classes
 {
-    internal class Election
+    public class Election
     {
         // Attributs privés
         private string nom_election;

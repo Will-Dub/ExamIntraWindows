@@ -59,12 +59,14 @@
             this.électeurToolStripMenuItem.Name = "électeurToolStripMenuItem";
             this.électeurToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.électeurToolStripMenuItem.Text = "Électeur";
+            this.électeurToolStripMenuItem.Click += new System.EventHandler(this.électeurToolStripMenuItem_Click);
             // 
             // listeÉlecteurToolStripMenuItem
             // 
             this.listeÉlecteurToolStripMenuItem.Name = "listeÉlecteurToolStripMenuItem";
             this.listeÉlecteurToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
             this.listeÉlecteurToolStripMenuItem.Text = "Liste électeur";
+            this.listeÉlecteurToolStripMenuItem.Click += new System.EventHandler(this.listeÉlecteurToolStripMenuItem_Click);
             // 
             // FormGestElecteur
             // 

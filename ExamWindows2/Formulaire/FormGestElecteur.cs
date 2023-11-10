@@ -23,5 +23,19 @@ namespace ExamWindows2.Formulaire
             formulaire.MdiParent = this;
             formulaire.Show();
         }
+
+        private void électeurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormElecteur formulaire = new FormElecteur();
+            formulaire.MdiParent = this;
+            formulaire.Show();
+        }
+
+        private void listeÉlecteurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormListElecteurs formulaire = new FormListElecteurs();
+            formulaire.MdiParent = this;
+            formulaire.Show();
+        }
     }
 }

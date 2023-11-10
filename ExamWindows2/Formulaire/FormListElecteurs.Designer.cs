@@ -44,7 +44,7 @@
             // label_circonscription
             // 
             this.label_circonscription.AutoSize = true;
-            this.label_circonscription.Location = new System.Drawing.Point(148, 70);
+            this.label_circonscription.Location = new System.Drawing.Point(84, 57);
             this.label_circonscription.Name = "label_circonscription";
             this.label_circonscription.Size = new System.Drawing.Size(90, 13);
             this.label_circonscription.TabIndex = 0;
@@ -53,7 +53,7 @@
             // label_recherche
             // 
             this.label_recherche.AutoSize = true;
-            this.label_recherche.Location = new System.Drawing.Point(95, 38);
+            this.label_recherche.Location = new System.Drawing.Point(31, 25);
             this.label_recherche.Name = "label_recherche";
             this.label_recherche.Size = new System.Drawing.Size(60, 13);
             this.label_recherche.TabIndex = 1;
@@ -66,14 +66,14 @@
             "Gatineau",
             "Aylmer",
             "Hull"});
-            this.comboBox_circonscription.Location = new System.Drawing.Point(287, 67);
+            this.comboBox_circonscription.Location = new System.Drawing.Point(223, 54);
             this.comboBox_circonscription.Name = "comboBox_circonscription";
             this.comboBox_circonscription.Size = new System.Drawing.Size(200, 21);
             this.comboBox_circonscription.TabIndex = 13;
             // 
             // button_rechercher
             // 
-            this.button_rechercher.Location = new System.Drawing.Point(527, 65);
+            this.button_rechercher.Location = new System.Drawing.Point(463, 52);
             this.button_rechercher.Name = "button_rechercher";
             this.button_rechercher.Size = new System.Drawing.Size(88, 23);
             this.button_rechercher.TabIndex = 14;
@@ -83,7 +83,7 @@
             // label_nom_election
             // 
             this.label_nom_election.AutoSize = true;
-            this.label_nom_election.Location = new System.Drawing.Point(95, 115);
+            this.label_nom_election.Location = new System.Drawing.Point(31, 102);
             this.label_nom_election.Name = "label_nom_election";
             this.label_nom_election.Size = new System.Drawing.Size(94, 13);
             this.label_nom_election.TabIndex = 15;
@@ -92,7 +92,7 @@
             // label_date_election
             // 
             this.label_date_election.AutoSize = true;
-            this.label_date_election.Location = new System.Drawing.Point(95, 150);
+            this.label_date_election.Location = new System.Drawing.Point(31, 137);
             this.label_date_election.Name = "label_date_election";
             this.label_date_election.Size = new System.Drawing.Size(86, 13);
             this.label_date_election.TabIndex = 16;
@@ -106,9 +106,9 @@
             this.columnPrenom,
             this.columnCourriel});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(98, 179);
+            this.listView1.Location = new System.Drawing.Point(34, 166);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(661, 259);
+            this.listView1.Size = new System.Drawing.Size(731, 259);
             this.listView1.TabIndex = 17;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;

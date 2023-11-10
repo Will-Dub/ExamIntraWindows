@@ -119,7 +119,7 @@
             // 
             this.label_courriel.AutoSize = true;
             this.label_courriel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_courriel.Location = new System.Drawing.Point(173, 303);
+            this.label_courriel.Location = new System.Drawing.Point(173, 292);
             this.label_courriel.Name = "label_courriel";
             this.label_courriel.Size = new System.Drawing.Size(76, 24);
             this.label_courriel.TabIndex = 16;
@@ -148,7 +148,7 @@
             // 
             // textBox_courriel
             // 
-            this.textBox_courriel.Location = new System.Drawing.Point(376, 303);
+            this.textBox_courriel.Location = new System.Drawing.Point(376, 292);
             this.textBox_courriel.Name = "textBox_courriel";
             this.textBox_courriel.Size = new System.Drawing.Size(200, 20);
             this.textBox_courriel.TabIndex = 20;
