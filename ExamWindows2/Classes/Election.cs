@@ -41,12 +41,24 @@ namespace ExamWindows2.Classes
 
         public List<Electeur> rechercher_electeur_circonscription(string p_circons)
         {
-            return this.list_electeurs;
+            List<Electeur> list_electeurs_circons = new List<Electeur>();
+
+            foreach (Electeur p_elect in list_electeurs)
+            {
+                if(p_elect.Circoncription == p_circons)
+                {
+                    list_electeurs_circons.Add((Electeur)p_elect);
+                }
+            }
+
+            return list_electeurs_circons;
         }
 
         public bool verifier_date_election()
         {
-            return this.date_election >= DateTime.Now;
+            DateTime current_date = DateTime.Now;
+            current_date = current_date.AddDays(1);
+            return this.date_election >= current_date;
         }
 
         // Constructeur
