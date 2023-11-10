@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace ExamWindows2
 {
@@ -17,18 +18,37 @@ namespace ExamWindows2
         public string Nom
         {
             get { return this.nom; }
-            set { this.nom = value; }
+            set {
+                Regex Reg = new Regex("[A-Z][a-z]{5,20}");
+                if (Reg.IsMatch(value))
+                {
+                    this.nom = value;
+                }
+            }
         }
 
         public string Prenom
         {
             get { return this.prenom; }
-            set { this.prenom = value; }
+            set {
+                Regex Reg = new Regex("[A-Z][a-z]{5,20}");
+                if (Reg.IsMatch(value))
+                {
+                    this.prenom = value;
+                }
+            }
         }
+
         public string Courriel
         {
             get { return this.courriel; }
-            set { this.courriel = value; }
+            set {
+                Regex Reg = new Regex("[a-zA-Z]\\S{4,25}@[a-zA-Z]{1,10}.ca");
+                if (Reg.IsMatch(value))
+                {
+                    this.courriel = value;
+                }
+            }
         }
 
         // Override functions

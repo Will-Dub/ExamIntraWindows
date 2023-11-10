@@ -3,26 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 namespace ExamWindows2.Classes
 {
     internal class Electeur : Individu
     {
-        // Attributs privés
+         // Attributs privés
         private string numero_electeur;
         private string circoncription;
 
-        // Propriétés
+        // Méthode
         public string Numero_electeur
         {
             get { return this.numero_electeur; }
-            set { this.numero_electeur = value; }
+            set {
+                Regex Reg = new Regex("/d{6}");
+                if (Reg.IsMatch(value))
+                {
+                    this.numero_electeur = value;
+                }
+            }
         }
 
         public string Circoncription
         {
             get { return this.circoncription; }
-            set { this.circoncription = value; }
+            set { 
+                if(value == "Gatineau" || value == "Alymer" || value == "Hull")
+                {
+                    this.circoncription = value;
+                }
+            }
         }
 
         // Override functions
