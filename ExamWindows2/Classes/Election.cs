@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 
-namespace ExamWindows2.Classes
+namespace ExamWindows2
 {
     public class Election
     {
@@ -28,23 +28,23 @@ namespace ExamWindows2.Classes
 
         public DateTime DateElection
         {
-            get { return date_election; }
-            set {date_election = value;}
+            get { return this.date_election; }
+            set { this.date_election = value;}
         }
 
-        public List<Electeur> ListElecteurs
+        internal List<Electeur> List_electeurs
         {
-            get { return list_electeurs; }
-            set { list_electeurs = value; }
+            get { return this.list_electeurs; }
+            set { this.list_electeurs = value; }
         }
 
         // Fonctions
-        public void ajouter_electeur(Electeur p_elect)
+        internal void ajouter_electeur(Electeur p_elect)
         {
             this.list_electeurs.Add(p_elect);
         }
 
-        public List<Electeur> rechercher_electeur_circonscription(string p_circons)
+        internal List<Electeur> rechercher_electeur_circonscription(string p_circons)
         {
             List<Electeur> list_electeurs_circons = new List<Electeur>();
 

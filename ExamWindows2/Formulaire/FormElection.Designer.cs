@@ -76,6 +76,7 @@
             this.button_creer.TabIndex = 3;
             this.button_creer.Text = "Créer";
             this.button_creer.UseVisualStyleBackColor = true;
+            this.button_creer.Click += new System.EventHandler(this.button_creer_Click);
             // 
             // dateTimePicker_date_election
             // 

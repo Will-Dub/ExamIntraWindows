@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 
-namespace ExamWindows2.Classes
+namespace ExamWindows2
 {
-    internal class Individu
+    public class Individu
     {
         // Attributs privés
         private string nom;
@@ -58,7 +58,7 @@ namespace ExamWindows2.Classes
         }
 
         // Constructeur
-        public Individu(string p_nom, string p_prenom, string p_courriel)
+        public Individu(string p_nom = "", string p_prenom = "", string p_courriel = "")
         {
             this.nom = p_nom;
             this.prenom = p_prenom;

@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 
-namespace ExamWindows2.Classes
+namespace ExamWindows2
 {
-    internal class Electeur : Individu
+    public class Electeur : Individu
     {
          // Attributs privés
         private string numero_electeur;
@@ -46,7 +46,7 @@ namespace ExamWindows2.Classes
 
 
         // Constructeur
-        Electeur(string p_nom, string p_prenom, string p_courriel, string p_numero_electeur, string p_circonscription) : base (p_nom, p_prenom, p_courriel)
+        public Electeur(string p_nom = "", string p_prenom = "", string p_courriel = "", string p_numero_electeur = "", string p_circonscription = "") : base (p_nom, p_prenom, p_courriel)
         {
             this.numero_electeur = p_numero_electeur;
             this.circoncription = p_circonscription;

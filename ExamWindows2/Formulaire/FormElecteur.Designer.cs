@@ -63,6 +63,7 @@
             this.button_ajouter.TabIndex = 10;
             this.button_ajouter.Text = "Ajouter";
             this.button_ajouter.UseVisualStyleBackColor = true;
+            this.button_ajouter.Click += new System.EventHandler(this.button_ajouter_Click);
             // 
             // label_numéro
             // 
