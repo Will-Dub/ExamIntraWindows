@@ -1,4 +1,4 @@
-﻿namespace ExamWindows2
+﻿namespace ExamWindows2.Formulaire
 {
     partial class FormGestElecteur
     {
@@ -52,6 +52,7 @@
             this.électionToolStripMenuItem.Name = "électionToolStripMenuItem";
             this.électionToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.électionToolStripMenuItem.Text = "Élection";
+            this.électionToolStripMenuItem.Click += new System.EventHandler(this.électionToolStripMenuItem_Click);
             // 
             // électeurToolStripMenuItem
             // 
@@ -74,7 +75,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormGestElecteur";
-            this.Text = "FormGestElecteur";
+            this.Text = "Gestion de l\'élection";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

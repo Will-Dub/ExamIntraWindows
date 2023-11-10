@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace ExamWindows2.Formulaire
 {
-    public partial class FormGestElecteur : Form
+    public partial class FormElecteur : Form
     {
-        public FormGestElecteur()
+        public FormElecteur()
         {
             InitializeComponent();
-        }
-
-        private void électionToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormElection formulaire = new FormElection();
-            formulaire.MdiParent = this;
-            formulaire.Show();
         }
     }
 }

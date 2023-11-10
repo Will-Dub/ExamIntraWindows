@@ -17,7 +17,7 @@ namespace ExamWindows2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormGestElecteur());
+            Application.Run(new Formulaire.FormGestElecteur());
         }
     }
 }

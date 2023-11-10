@@ -49,6 +49,12 @@
     <Compile Include="Classes\Electeur.cs" />
     <Compile Include="Classes\Election.cs" />
     <Compile Include="Classes\Individu.cs" />
+    <Compile Include="Formulaire\FormElecteur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaire\FormElecteur.Designer.cs">
+      <DependentUpon>FormElecteur.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulaire\FormElection.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formulaire\FormElecteur.resx">
+      <DependentUpon>FormElecteur.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulaire\FormElection.resx">
       <DependentUpon>FormElection.cs</DependentUpon>
     </EmbeddedResource>

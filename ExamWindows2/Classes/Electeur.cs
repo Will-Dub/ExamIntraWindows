@@ -30,7 +30,7 @@ namespace ExamWindows2.Classes
         {
             get { return this.circoncription; }
             set { 
-                if(value == "Gatineau" || value == "Alymer" || value == "Hull")
+                if(value == "Gatineau" || value == "Aylmer" || value == "Hull")
                 {
                     this.circoncription = value;
                 }
