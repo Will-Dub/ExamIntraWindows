@@ -67,6 +67,12 @@
     <Compile Include="Formulaire\FormGestElecteur.Designer.cs">
       <DependentUpon>FormGestElecteur.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulaire\FormListElecteurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaire\FormListElecteurs.Designer.cs">
+      <DependentUpon>FormListElecteurs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formulaire\FormElecteur.resx">
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulaire\FormGestElecteur.resx">
       <DependentUpon>FormGestElecteur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaire\FormListElecteurs.resx">
+      <DependentUpon>FormListElecteurs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
